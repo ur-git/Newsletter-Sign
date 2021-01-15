@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Signin</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+    <!-- Custom styles for this template -->
+    <link href="signin.css" rel="stylesheet" />
+  </head>
+  <body class="text-center">
+    <main class="form-signin">
+      <form action="/" method="POST">
+        <h3 class="h3 mb-3 fw-normal">Sign up to my Newsletter</h3>
+        <label class="visually-hidden">first Name</label>
+        <input
+          type="text"
+          name="fname"
+          class="form-control top"
+          placeholder="First name"
+          required
+          autofocus
+        />
+        <label class="visually-hidden">Second Name</label>
+        <input
+          type="text"
+          name="sname"
+          class="form-control middle"
+          placeholder="Second name"
+          required
+          autofocus
+        />
+        <label class="visually-hidden">Email address</label>
+        <input
+          type="email"
+          name="email"
+          class="form-control bottom"
+          placeholder="Email address"
+          required
+          autofocus
+        />
+
+        <button class="w-100 btn btn-lg btn-primary" type="submit">
+          Sign me up!
+        </button>
+        <p class="mt-5 mb-3 text-muted">&copy; 2020</p>
+      </form>
+    </main>
+  </body>
+</html>
